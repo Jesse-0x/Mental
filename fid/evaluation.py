@@ -67,10 +67,25 @@ for i in types:
 # Restatement or Paraphrasing 2.337230794170798e+30
 
 # normalizing the data
-from sklearn.preprocessing import MinMaxScaler
-# pip install scikit-learn
+o_scores = {
+    "Question":5.902958103587057e+20,
+    "Self-disclosure":-2.9206669829258405e+33,
+    "Affirmation and Reassurance":-2.5442254606820655e+35,
+    "Providing Suggestions":4.460149039706125e+43,
+    "Others":4.5556193445701994e+29,
+    "Reflection of feelings":1.0141204801825835e+31,
+    "Information":-4.436777100798803e+30,
+    "Restatement or Paraphrasing":2.337230794170798e+30,
+}
+import torch
+from torch.nn.functional import softmax
 import numpy as np
-scaler = MinMaxScaler()
-for i in reference:
-    reference[i] = scaler.fit_transform(np.array(reference[i]).reshape(-1, 1))
-    types[i] = scaler.fit_transform(np.array(types[i]).reshape(-1, 1))
+
+def normalize(scores):
+    scores = torch.tensor(list(scores.values()))
+    scores = softmax(scores)
+    scores = scores.tolist()
+    return scores
+
+scores = normalize(scores)
+
