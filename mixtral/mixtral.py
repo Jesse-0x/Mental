@@ -2,7 +2,7 @@ from llama_cpp import Llama
 import json
 import tqdm
 
-llm = Llama(model_path="/Users/jesse/Doc/github/llama/chat/Llama-2-7b-chat-hf/ggml-model-q4_0.gguf",
+llm = Llama(model_path="/Users/jesse/Doc/mixtral/mixtral-8x7b-v0.1.Q4_K_M.gguf",
             n_ctx=2048,
             verbose=True)
 
@@ -16,7 +16,6 @@ def create_completion(message):
     response = llm.create_chat_completion(
         messages=message,
         temperature=0.7,
-        model="counselor",
     )
     return response
 
