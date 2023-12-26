@@ -1,0 +1,65 @@
+[
+    {
+        "id": "chatcmpl-0cea76c0-39ce-4837-b351-668648561a79",
+        "object": "chat.completion",
+        "created": 1703584675,
+        "model": "counselor",
+        "choices": [
+            {
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "Would it be helpful if you take time for yourself after work and separate yourself from that stress?  \nYou can also talk about this with a supervisor or a therapist.  \nThey might have suggestions or ways they can help support you."
+                },
+                "finish_reason": "stop"
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 335,
+            "completion_tokens": 49,
+            "total_tokens": 384
+        }
+    },
+    {
+        "id": "chatcmpl-b14bba53-402f-4ef4-aa6e-f0a9cee538c2",
+        "object": "chat.completion",
+        "created": 1703584804,
+        "model": "counselor",
+        "choices": [
+            {
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "Yes, that would be a good idea. Remember, it's okay if you don't want to do this job anymore. It's not for everyone.  \nYou can always look for something else that you enjoy doing and pays well too!"
+                },
+                "finish_reason": "stop"
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 501,
+            "completion_tokens": 52,
+            "total_tokens": 553
+        }
+    },
+    {
+        "id": "chatcmpl-16b2c6f0-de35-41ce-939c-a9e17f4243e4",
+        "object": "chat.completion",
+        "created": 1703584895,
+        "model": "counselor",
+        "choices": [
+            {
+                "index": 0,
+                "message": {
+                    "role": "assistant",
+                    "content": "You are welcome!! It's really hard time for everyone due to COVID-19 Pandemic. But we have to hope for best and keep trying. Insha Allah you will get the right opportunity soon.\n\nI wish you all the best!"
+                },
+                "finish_reason": "stop"
+            }
+        ],
+        "usage": {
+            "prompt_tokens": 493,
+            "completion_tokens": 53,
+            "total_tokens": 546
+        }
+    }
+]
