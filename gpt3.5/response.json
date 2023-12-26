@@ -1,0 +1,2602 @@
+[
+    {
+        "id": "chatcmpl-8a1E33fF2ZCxc5O7RWipdhLO34Jff",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's important to acknowledge your feelings and find ways to cope with them. It might be helpful to find a balance between helping others and taking care of yourself. Have you thought about seeking support from a therapist or counselor to help you manage these feelings?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595211,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 50,
+            "prompt_tokens": 298,
+            "total_tokens": 348
+        }
+    },
+    {
+        "id": "chatcmpl-8a1E7Nz1RT99eHq1fbescqGT3Rvbn",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "Yes, taking the time to reflect on your feelings and priorities can help you make a decision that is best for you. It's important to take care of your own well-being.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595215,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 36,
+            "prompt_tokens": 452,
+            "total_tokens": 488
+        }
+    },
+    {
+        "id": "chatcmpl-8a1E9h2kdcVwp9ZoYunMRSCyBz96N",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "You're welcome! If you need any more support or guidance, feel free to reach out. I'm here to help.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595217,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 25,
+            "prompt_tokens": 447,
+            "total_tokens": 472
+        }
+    },
+    {
+        "id": "chatcmpl-8a1EAxhC1GPB1rUFpFyrrXyHVCWi4",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I understand how important it is to you to continue traditions and make your loved ones happy. It's okay to feel the pressure of these expectations, but it's also important to remember that the holidays are about spending time together and showing love, not just about extravagant celebrations. Your friends and girlfriend will likely appreciate any effort you make to spend time with them, regardless of the scale of the celebration. It might be worth having an open and honest conversation about your financial situation with them. They might be more understanding than you expect.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595218,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 105,
+            "prompt_tokens": 436,
+            "total_tokens": 541
+        }
+    },
+    {
+        "id": "chatcmpl-8a1EEanzVs5MQfsuiwSWv4ZLuhF0t",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "Borrowing money is an option, but it's important to consider how you will pay it back. Make sure to borrow from a reputable source and have a plan in place for repayment. It's also important to ensure that you don't put yourself in a difficult financial situation by borrowing more than you can comfortably repay.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595222,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 64,
+            "prompt_tokens": 622,
+            "total_tokens": 686
+        }
+    },
+    {
+        "id": "chatcmpl-8a1EHp6vjm2GGQTBqzMqGh5PeZFFp",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "That's great! Watching sports can be a good way to pass the time and distract your mind from the current situation. It's also a good way to feel connected to the larger world outside of your immediate surroundings. Is there a particular team that you enjoy following?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595225,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 53,
+            "prompt_tokens": 180,
+            "total_tokens": 233
+        }
+    },
+    {
+        "id": "chatcmpl-8a1EJEVrvx0HeUT58iM0q8R87GQbY",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's normal for couples to have disagreements, but if the fighting is becoming a frequent occurrence and causing distress, it may be helpful to explore the underlying issues. Communication is key in any relationship, and finding healthy ways to address conflicts can be beneficial. If you'd like, we can explore some strategies to improve communication and manage conflicts more effectively.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595227,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 69,
+            "prompt_tokens": 273,
+            "total_tokens": 342
+        }
+    },
+    {
+        "id": "chatcmpl-8a1ELphfXoxEwZc27zgIhJmQpA7bZ",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "That's a positive step. Communication is key in any relationship. I'm glad to hear that you're planning to talk about it. If you need any support or guidance during that conversation, feel free to reach out.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595229,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 44,
+            "prompt_tokens": 483,
+            "total_tokens": 527
+        }
+    },
+    {
+        "id": "chatcmpl-8a1ENxlpQjungES8xZYM0Vtb8pDRc",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's completely understandable to feel that way. Making a decision about your future can be overwhelming, especially after experiencing a significant change like losing a job. It's important to take some time for self-reflection and exploration to figure out what you really want. And remember, it's okay to not have all the answers right away. If you need some support in figuring things out, consider speaking with a career counselor or a mental health professional who can help guide you through this process.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595231,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 96,
+            "prompt_tokens": 365,
+            "total_tokens": 461
+        }
+    },
+    {
+        "id": "chatcmpl-8a1EPj70pMxPcUvcbWr6BxyV6PoJ3",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It sounds like you are feeling hurt and frustrated by your friend's behavior. It can be really difficult to deal with someone who is not being truthful. Have you talked to Martins about how his behavior is affecting you?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595233,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 43,
+            "prompt_tokens": 185,
+            "total_tokens": 228
+        }
+    },
+    {
+        "id": "chatcmpl-8a1ESSr8xtvDIvnPQkc1VvUNNU8mN",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It sounds like you are dealing with a lot of fear and uncertainty about the future. Have you considered seeking support from a therapist or counselor to help you work through these feelings and concerns? It's also important to have open and honest communication with your girlfriend about your fears and to discuss your concerns about having children.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595236,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 62,
+            "prompt_tokens": 484,
+            "total_tokens": 546
+        }
+    },
+    {
+        "id": "chatcmpl-8a1EVw09mxON1CiqelaeYaCJMitec",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I'm sorry to hear that. It sounds like you've had a lot of difficult experiences with loss and that's shaped your perspective on having children. It's important to acknowledge those feelings and to have open and honest conversations with your girlfriend about your concerns. It's okay to have different views on this, but it's important to communicate and understand each other's perspectives.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595239,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 74,
+            "prompt_tokens": 990,
+            "total_tokens": 1064
+        }
+    },
+    {
+        "id": "chatcmpl-8a1EYpxTyGHsgARYNDQOez3JBxlaT",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's understandable that you're feeling upset about your friends not being there for you when you need emotional support, as well as not contributing their fair share when going out. It's important to communicate your feelings to your friends and express how their actions are affecting you. Setting boundaries and discussing expectations for support and financial responsibilities can help improve the situation. If you need further support, seeking out new friendships or speaking to a mental health professional can also be beneficial.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595242,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 91,
+            "prompt_tokens": 115,
+            "total_tokens": 206
+        }
+    },
+    {
+        "id": "chatcmpl-8a1EcCRG2zrV3ZRAYscwFuctdOQPC",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I can understand how that can be really difficult. It's important to have friends who are there for you emotionally and who respect and value your friendship. Have you talked to your friends about how you feel?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595246,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 41,
+            "prompt_tokens": 173,
+            "total_tokens": 214
+        }
+    },
+    {
+        "id": "chatcmpl-8a1EfoFzN9qAtrI7E4V5QNHSjmdID",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It sounds like you and your partner are facing some significant challenges, particularly around financial stress. It's understandable that these issues can lead to heated arguments and strain in the relationship. It's important to communicate openly and honestly about these concerns and to seek understanding and support from each other. Have you both considered seeking professional help, such as couples therapy, to work through these challenges together?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595249,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 76,
+            "prompt_tokens": 178,
+            "total_tokens": 254
+        }
+    },
+    {
+        "id": "chatcmpl-8a1EhLIWuYAwKWxe1l6UcSas9scuE",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's understandable that you are feeling frustrated and overwhelmed by the situation. It's important to have an open and honest conversation with your partner about your financial struggles and your need for support. It may be helpful to seek couples counseling to address these issues and find a way to work together as a team. Additionally, it's important to seek support for yourself during this challenging time. You may benefit from speaking with a mental health professional to help you navigate through these difficulties.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595251,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 93,
+            "prompt_tokens": 585,
+            "total_tokens": 678
+        }
+    },
+    {
+        "id": "chatcmpl-8a1EkW0jmXVI2RMEdiyQS8UTekgTe",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It is natural to feel concerned about your loved ones, especially when you are far away. Have you considered discussing your concerns with your siblings and coming up with a plan together to ensure that your parents are well taken care of?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595254,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 45,
+            "prompt_tokens": 472,
+            "total_tokens": 517
+        }
+    },
+    {
+        "id": "chatcmpl-8a1ElrULWXoZo6qzu1LX1HTVS5GJ5",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's totally understandable that you had those hopes and dreams, and it's okay to feel disappointed that things didn't turn out as you had hoped. It's important to give yourself the time and space to grieve the loss of the relationship and the future you had envisioned. And remember, it's okay to feel a mix of emotions right now.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595255,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 70,
+            "prompt_tokens": 265,
+            "total_tokens": 335
+        }
+    },
+    {
+        "id": "chatcmpl-8a1Eopv5Mlv9jSQKRa0EPNUTvgbMC",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I'm glad to hear that. It's important to remember that you deserve to be with someone who shares your values and wants the same things in life. It's okay to take the time to heal and focus on yourself right now. Remember, it's okay to seek help and support from friends, family, or a professional counselor if you need it. You are not alone in this.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595258,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 78,
+            "prompt_tokens": 509,
+            "total_tokens": 587
+        }
+    },
+    {
+        "id": "chatcmpl-8a1EtQlNvb7xVHC4HOUZFB0z4UhNm",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's understandable that you're feeling confused and hurt. It's important to remember that his behavior and decision are a reflection of him, not of you. It's not easy, but try not to blame yourself for the situation. It may be helpful to give yourself some time and space to process your emotions before seeking closure or trying to understand his actions. If you need support, consider reaching out to friends, family, or a mental health professional to help you through this difficult time. You deserve to be surrounded by people who care about you and can offer you the support you need.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595263,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 117,
+            "prompt_tokens": 283,
+            "total_tokens": 400
+        }
+    },
+    {
+        "id": "chatcmpl-8a1EwCrSjVCFqluNO35uhsbKMxoqq",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I'm sorry to hear that. It must be very difficult to be going through this alone. Is there anyone from work or a neighbor you could reach out to for support? It's important to have someone to talk to during this tough time.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595266,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 49,
+            "prompt_tokens": 369,
+            "total_tokens": 418
+        }
+    },
+    {
+        "id": "chatcmpl-8a1ExdgLvWSY6EF3l7dHrb7dXVWOd",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "Absolutely, it's a learning experience. It will take time, but you will come out of this stronger and wiser. If you ever need to talk or get support, don't hesitate to reach out. You're not alone in this.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595267,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 49,
+            "prompt_tokens": 721,
+            "total_tokens": 770
+        }
+    },
+    {
+        "id": "chatcmpl-8a1F0tu3vUNIAGzkFDR4xom2v5Wlf",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "Yes, it's important to learn from this experience and grow stronger. Take your time to heal and focus on self-care. If you need further support, don't hesitate to reach out to a professional counselor or therapist. You deserve to be happy and supported.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595270,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 52,
+            "prompt_tokens": 787,
+            "total_tokens": 839
+        }
+    },
+    {
+        "id": "chatcmpl-8a1F33kiDDeVUTyBP36aOwechbKeM",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I'm glad I could provide some support and perspective. It's important to remember that you are not alone, and it's okay to seek help from others when you're going through a tough time. You deserve to be with someone who values and respects you. Take care of yourself and be kind to yourself during this difficult time. If you need further support, don't hesitate to reach out.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595273,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 79,
+            "prompt_tokens": 938,
+            "total_tokens": 1017
+        }
+    },
+    {
+        "id": "chatcmpl-8a1F6gfeXDSSXvZgX9l1Q5m2pbEq6",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "Thank you for your kind words. Remember, you are strong and capable of handling this. Take your time to heal and focus on your well-being. If you ever need someone to talk to, I'm here for you.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595276,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 45,
+            "prompt_tokens": 1043,
+            "total_tokens": 1088
+        }
+    },
+    {
+        "id": "chatcmpl-8a1FB0FE1bV4Z2U0E7NLDiOOFRLYb",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I'm so sorry to hear about your loss. It's completely normal to feel overwhelming sadness and grief after such an experience. It's important to allow yourself to grieve and to seek support from friends, family, or a professional counselor. It's also important to take care of yourself physically and emotionally during this difficult time. If you find that you are struggling to cope, please consider seeking professional help. You are not alone, and there is support available to help you through this.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595281,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 97,
+            "prompt_tokens": 152,
+            "total_tokens": 249
+        }
+    },
+    {
+        "id": "chatcmpl-8a1FFKbbUapvGTZ0x09JWpULjmfnh",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's really important to be open and honest with each other during this time.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595285,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 16,
+            "prompt_tokens": 339,
+            "total_tokens": 355
+        }
+    },
+    {
+        "id": "chatcmpl-8a1FGvQtHEXxqOOQi5SQGYFb7BXVM",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I can't imagine how scary that must have been. I hope you were able to get the medical attention you needed.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595286,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 24,
+            "prompt_tokens": 531,
+            "total_tokens": 555
+        }
+    },
+    {
+        "id": "chatcmpl-8a1FK0tVg7M86rSZfT1yAucdUkvSD",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's really difficult when a close friend suddenly turns against you. It's natural to feel hurt and confused. It's possible that there may be other factors at play, such as her own personal struggles or challenges in her relationship. However, it's important to remember that her behavior is not a reflection of your worth or value as a person. It's okay to take some time to process your feelings and seek support from other friends or family members. If you feel comfortable, it may also be helpful to communicate with your friend and express how her words have affected you. Remember to prioritize your own well-being during this challenging time.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595290,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 126,
+            "prompt_tokens": 172,
+            "total_tokens": 298
+        }
+    },
+    {
+        "id": "chatcmpl-8a1FNp9XRRw7s6fRV8iJycti0ORO6",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "That's a lot of history between them. It seems like there is a lot of unresolved feelings and connections. How do you feel about that?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595293,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 29,
+            "prompt_tokens": 726,
+            "total_tokens": 755
+        }
+    },
+    {
+        "id": "chatcmpl-8a1FOkdMuXdt6MjfOXdEZI0ONR4jm",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's understandable that you are feeling upset and confused. It seems like there are some discrepancies in the way your boyfriend and you handle your friendships with exes. It's important to communicate your feelings and concerns in a calm and open manner. It might be helpful to have a conversation with your boyfriend about both of your expectations regarding interactions with exes and transparency in your relationship. Open and honest communication can help to address any insecurities and differences in perspectives.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595294,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 91,
+            "prompt_tokens": 893,
+            "total_tokens": 984
+        }
+    },
+    {
+        "id": "chatcmpl-8a1FRWJ3DRINE3jomaW93O3Cooyio",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's definitely a difficult situation, and it's important to trust your instincts. Have you thought about what you would like to do next?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595297,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 28,
+            "prompt_tokens": 980,
+            "total_tokens": 1008
+        }
+    },
+    {
+        "id": "chatcmpl-8a1FUgFcbVDBG1tbGIB1hkWsz17s3",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I can understand how you might feel that way, given the circumstances. It's important to remember that you are not alone, and there are options available to help you improve your situation. Have you considered reaching out to any local community organizations or support groups for assistance with your financial needs?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595300,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 57,
+            "prompt_tokens": 338,
+            "total_tokens": 395
+        }
+    },
+    {
+        "id": "chatcmpl-8a1FZNbPRwRkDqwREDKRWtGrxrqpd",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's understandable to feel anxious in a high-pressure and competitive environment. It's important to remember that your worth is not solely defined by your ranking or the outcome of this semester. It's also important to take care of your mental and emotional well-being. Have you considered seeking support from a counselor or therapist to help you navigate these feelings of anxiety and pressure?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595305,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 72,
+            "prompt_tokens": 130,
+            "total_tokens": 202
+        }
+    },
+    {
+        "id": "chatcmpl-8a1FbGyEgeaHJKtiEwDh8llXxQAWY",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "You've got this! You've made it this far, and I believe in your ability to overcome this challenge. Remember to take care of yourself and seek support when needed. Good luck!",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595307,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 38,
+            "prompt_tokens": 361,
+            "total_tokens": 399
+        }
+    },
+    {
+        "id": "chatcmpl-8a1FdhzCZ2uZwelkPtammgo2lLsi0",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I can understand how lost you feel right now. It's a very difficult situation to be in. It's important for you to take care of yourself and your children. It's okay to feel unsure about what to do next. It might be helpful to seek support from trusted friends or family members, and to consider seeking professional counseling for yourself to help navigate this difficult time. You deserve to have someone support you through this.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595309,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 85,
+            "prompt_tokens": 571,
+            "total_tokens": 656
+        }
+    },
+    {
+        "id": "chatcmpl-8a1FjeG3eVDsknElLmN9gs9kDKTCS",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "Russian Blues are beautiful and smart cats. It's nice to have a companion, even if it's not the same as human interaction.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595315,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 27,
+            "prompt_tokens": 742,
+            "total_tokens": 769
+        }
+    },
+    {
+        "id": "chatcmpl-8a1FlWOEXRuXs32KOrn2ehakTZAbR",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "That's great to hear. Pets can really be a source of comfort and companionship, especially during tough times. It's good that you have him with you.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595317,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 33,
+            "prompt_tokens": 811,
+            "total_tokens": 844
+        }
+    },
+    {
+        "id": "chatcmpl-8a1FoFLHIk8u19j5wYw3PwRQmZelY",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "Yes, that's exactly what I mean. Sometimes taking a leap of faith, even if you're feeling afraid, can lead to great opportunities. It's okay to be cautious, but it's also important to push yourself out of your comfort zone to grow and achieve your goals. Remember, you are not alone in this journey, and seeking support from friends, family, or a professional can also help you gain the confidence you need.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595320,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 87,
+            "prompt_tokens": 389,
+            "total_tokens": 476
+        }
+    },
+    {
+        "id": "chatcmpl-8a1Fr9ISILu4chJjU7L0hQfRyv1Bj",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "Yes, that's exactly what I mean. Sometimes, taking action despite feeling afraid can help build confidence. It's okay to feel nervous, but taking that step forward can lead to new opportunities and growth.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595323,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 41,
+            "prompt_tokens": 438,
+            "total_tokens": 479
+        }
+    },
+    {
+        "id": "chatcmpl-8a1FtHy2IZqXPsyHEgqhxHtnv9jCG",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It sounds like you have a lot of strengths to offer to a potential employer. Highlighting these skills and your experience in your resume and during interviews could help you land a better-paying job. Remember to also negotiate your salary when you get a job offer, as this can help you achieve your financial goals.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595325,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 61,
+            "prompt_tokens": 593,
+            "total_tokens": 654
+        }
+    },
+    {
+        "id": "chatcmpl-8a1FwGoDSu1zKIAObjL0EGzNcKBKs",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's great that you're considering keeping your current job while looking for a new one. This can provide a sense of security and stability as you navigate the job market. It's also a valuable lesson to learn from past experiences and approach the job search in a more strategic way. Good luck with your job search, and remember that it's okay to feel nervous or unsure; taking small steps and being persistent can lead to positive outcomes.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595328,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 87,
+            "prompt_tokens": 839,
+            "total_tokens": 926
+        }
+    },
+    {
+        "id": "chatcmpl-8a1G11yxasUybgL3mYe3U5FNcddFC",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I understand your concern. It's a very challenging time and it's natural to feel worried about the health of your loved ones. It's important to focus on what you can control, such as following safety guidelines, wearing masks, practicing good hygiene, and encouraging your parents to do the same. It's also important to stay informed from reliable sources and to seek support from friends, family, or a professional if needed. Remember, you're not alone in feeling this way, and it's okay to seek help and support.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595333,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 105,
+            "prompt_tokens": 199,
+            "total_tokens": 304
+        }
+    },
+    {
+        "id": "chatcmpl-8a1G3SrBw3fQvU1xuyKWXNskK7QQ4",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I'm glad you reached out for support. It can be frustrating when medications don't seem to be helping. It's important to communicate your concerns with your healthcare provider. In the meantime, talking about your feelings and experiences can also be beneficial. What would you like to discuss or work through today?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595335,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 60,
+            "prompt_tokens": 155,
+            "total_tokens": 215
+        }
+    },
+    {
+        "id": "chatcmpl-8a1G4vOHhxPiLrbrAWGcD61E2zsDe",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I see, well I'm glad to hear that your blood work will be done. In the meantime, it's important to keep yourself occupied with activities that bring you joy and relaxation. Engaging in hobbies, exercise, spending time with loved ones, or practicing mindfulness techniques can all help to keep your mind occupied and focused on positive activities. If you are feeling overwhelmed and having thoughts of harming yourself, it's important to reach out for immediate help. You can contact a crisis hotline or emergency services, or speak with a trusted friend or family member. Your well-being is important, and there are people who care about you and want to support you through this difficult time.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595336,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 134,
+            "prompt_tokens": 393,
+            "total_tokens": 527
+        }
+    },
+    {
+        "id": "chatcmpl-8a1G9KN5oW4s5oSCgOEccMtPuolhu",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's definitely a tough situation. It's important to consider your own needs and goals, and whether or not this relationship is helping or hindering those. It may be worth having an open and honest conversation with your boyfriend about how you're feeling and what you both want for the future. If you feel like you're moving in different directions, it may be time to reevaluate the relationship.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595341,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 79,
+            "prompt_tokens": 407,
+            "total_tokens": 486
+        }
+    },
+    {
+        "id": "chatcmpl-8a1GCAYKluHKBGgIlRJFh03ZmnnRP",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "You're welcome.  I'm glad I could help.  Just remember to be kind to yourself as you go through this.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595344,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 26,
+            "prompt_tokens": 530,
+            "total_tokens": 556
+        }
+    },
+    {
+        "id": "chatcmpl-8a1GDcu1scZwY2eeJ7tLp7olJouV9",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "You're welcome.  I'm glad I could help.  I hope everything works out for you.  If you need to talk more, I'm here for you.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595345,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 35,
+            "prompt_tokens": 639,
+            "total_tokens": 674
+        }
+    },
+    {
+        "id": "chatcmpl-8a1GFrUPuZVYikOPcr8R4WyV9jPRv",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I'm glad to hear that these ideas are helpful. Exploring different options can open up new opportunities for you. Remember, you're not alone in this process, and seeking support from career centers or educational institutions can provide valuable guidance.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595347,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 47,
+            "prompt_tokens": 254,
+            "total_tokens": 301
+        }
+    },
+    {
+        "id": "chatcmpl-8a1GJS7iFcC7fsFKLXX0juI0nHr2u",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "When you talk to her, be very clear about your intentions and boundaries. Let her know that you are not comfortable with her behavior and that you expect her to respect your relationship with her daughter. It's important to be assertive and firm in your communication, but also respectful and calm. If the situation escalates, it may be necessary to involve your girlfriend or seek support from a trusted individual.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595351,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 80,
+            "prompt_tokens": 447,
+            "total_tokens": 527
+        }
+    },
+    {
+        "id": "chatcmpl-8a1GMgxEqDIjWJJ5y6Nu47XZl9JrO",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I'm glad I could help. It's important to communicate openly with your friends. If you need any further support or advice, feel free to reach out.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595354,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 32,
+            "prompt_tokens": 341,
+            "total_tokens": 373
+        }
+    },
+    {
+        "id": "chatcmpl-8a1GO5mAq2SFe93Ppczd5DYkPQHSV",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's natural to wonder if there's something you could have done differently, but it's important to remember that friendships are a two-way street. It's important to communicate openly and honestly with your friends about your concerns, and try to understand each other's perspectives. Remember that it's not solely your responsibility to maintain the friendship.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595356,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 66,
+            "prompt_tokens": 408,
+            "total_tokens": 474
+        }
+    },
+    {
+        "id": "chatcmpl-8a1GPTClHhkiPM5Zu3JILXWn6MH2t",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "Absolutely, having an open and honest conversation can help to clarify things and potentially strengthen the friendship. It's important to communicate your feelings and also to listen to their perspective.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595357,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 34,
+            "prompt_tokens": 473,
+            "total_tokens": 507
+        }
+    },
+    {
+        "id": "chatcmpl-8a1GQEAyD0nB498EqB0tKVstALp9K",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I'm really sorry to hear that. It's natural to feel a range of emotions after a breakup, including sadness, anger, and confusion. It's important to take care of yourself during this difficult time. Surround yourself with supportive friends and family, and consider seeking professional help if you're struggling to cope with the situation. It's not uncommon to experience depression after a breakup, but there are ways to work through it and come out stronger on the other side.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595358,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 93,
+            "prompt_tokens": 81,
+            "total_tokens": 174
+        }
+    },
+    {
+        "id": "chatcmpl-8a1GUseXPx2nzeaeDlbnXTW0zIS7y",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's completely understandable to feel this way. The pressure of academic success and financial stability can be overwhelming. It might be helpful to explore other avenues of support, such as speaking with a financial aid advisor at your school or seeking out scholarships and grants that could alleviate some of the financial burden. Additionally, it's important to remember that setbacks and challenges are a natural part of the learning process, and it's okay to seek help and guidance during difficult times. It's also important to take care of your mental health during this stressful time. If the worry becomes too much to handle, it may be helpful to speak with a mental health professional for additional support.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595362,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 131,
+            "prompt_tokens": 390,
+            "total_tokens": 521
+        }
+    },
+    {
+        "id": "chatcmpl-8a1GY9zZAjVuPgTjZ6vMxfht1O7vu",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's completely understandable that you lost your temper in such a situation. However, it's important to find healthy ways to express your emotions and handle the situation. Have you considered seeking support from friends, family, or a therapist to help you process your emotions and navigate through this difficult time?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595366,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 58,
+            "prompt_tokens": 309,
+            "total_tokens": 367
+        }
+    },
+    {
+        "id": "chatcmpl-8a1GdCtqs2Pu0ptN06iedk5pSnFFB",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It sounds like there may be some communication issues within your friendship. It's important to express your feelings to your friends and try to have an open and honest conversation with them about the situation. Let them know how their actions make you feel and see if you can work together to address any concerns or misunderstandings. If your friends won't respond to you, it might be helpful to give them some space but also let them know that you are there to talk and work things out if they're ready. Remember to take care of yourself and seek support from others if needed.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595371,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 114,
+            "prompt_tokens": 362,
+            "total_tokens": 476
+        }
+    },
+    {
+        "id": "chatcmpl-8a1GnR9HypBfo97x2QAtA3LyC53sn",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It sounds like you have put a lot of thought and consideration into your decision. It can be difficult when our parents don't understand our choices. It's important to communicate with them and express your feelings and perspective.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595381,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 43,
+            "prompt_tokens": 294,
+            "total_tokens": 337
+        }
+    },
+    {
+        "id": "chatcmpl-8a1GpliP1kIXoGw59yrnei6ns5lTX",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I think it would be helpful to have an open and honest conversation with your parents. Express your feelings and thoughts about the situation and ask them to share their concerns as well. This can help you understand each other's perspectives and hopefully find a middle ground. It's important to communicate and respect each other's viewpoints.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595383,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 63,
+            "prompt_tokens": 549,
+            "total_tokens": 612
+        }
+    },
+    {
+        "id": "chatcmpl-8a1GqC39jmE7AvD9SScznVJzzq1z8",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I'm really sorry to hear that you're going through such a difficult time. Breakups can be incredibly painful, especially after such a long relationship. It's totally normal to feel sad, confused, and lost right now. If you'd like, we can talk more about your feelings and how you're coping with this situation. Remember, it's okay to take your time to process your emotions and seek support from friends, family, or a professional if needed. You don't have to go through this alone.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595384,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 103,
+            "prompt_tokens": 91,
+            "total_tokens": 194
+        }
+    },
+    {
+        "id": "chatcmpl-8a1GsxEXaY07Okjr4WuUw2SDWhgbC",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I'm sorry to hear that. It's completely normal to feel sad, hurt, and lost after a breakup, especially after being together for such a long time. It's important to give yourself time to grieve the relationship and to take care of yourself during this difficult period. Would you like to talk more about how you're feeling and how you're coping with the breakup?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595386,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 76,
+            "prompt_tokens": 135,
+            "total_tokens": 211
+        }
+    },
+    {
+        "id": "chatcmpl-8a1GuksXdAQoJ42SzH3PF2serRbDD",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It sounds like you are really struggling and using self-harm as a way to cope with your emotions. I want you to know that you are not alone in this and that there are healthier ways to cope with your feelings. I'm here to help you find those healthier coping strategies and support you through this difficult time.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595388,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 64,
+            "prompt_tokens": 318,
+            "total_tokens": 382
+        }
+    },
+    {
+        "id": "chatcmpl-8a1GvonGt0pieHGRVVNzG5jVM6knW",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "You can reach out to AspenPointe Crisis Center at (719) 635-7000. They provide 24/7 crisis intervention and support services. Please don't hesitate to call them if you feel the need for immediate help. Remember, you are not alone in this, and seeking help is a sign of strength.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595389,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 66,
+            "prompt_tokens": 467,
+            "total_tokens": 533
+        }
+    },
+    {
+        "id": "chatcmpl-8a1Gyl9kaQsVmNnglRSGIcUQtxrJk",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I'm sorry to hear that you're feeling that way. It's completely normal to have periods of feeling down or blue. Is there anything specific that's been bothering you or contributing to these feelings?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595392,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 40,
+            "prompt_tokens": 78,
+            "total_tokens": 118
+        }
+    },
+    {
+        "id": "chatcmpl-8a1H6UPY0M3dQhlks9n2ZLvsD19bM",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "Yes, there are many educational games and apps available that can help with vocabulary and other subjects. It's a great way for children to learn while having fun. I'm glad to hear that she enjoys them!",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595400,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 42,
+            "prompt_tokens": 492,
+            "total_tokens": 534
+        }
+    },
+    {
+        "id": "chatcmpl-8a1H7TUq7DmUGTnI3ADW1JRZY50YJ",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "No, you should not feel guilty for encouraging your child to study and do their best in school. It's important to instill a strong work ethic and the value of education in your child. However, it's also important to find a balance and provide support and understanding during challenging times. It's a delicate balance, but your concern shows that you're a caring and involved parent.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595401,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 77,
+            "prompt_tokens": 669,
+            "total_tokens": 746
+        }
+    },
+    {
+        "id": "chatcmpl-8a1HGknWYii9MO5GBQIik1WIru8Dz",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "If you feel physically threatened by a bully, it's important to remove yourself from the situation and seek help from a trusted adult or authority figure. Your safety is the most important thing. If you find yourself in a situation where you cannot leave, try to remain calm and avoid escalating the situation. Remember, it's okay to ask for help.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595410,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 69,
+            "prompt_tokens": 224,
+            "total_tokens": 293
+        }
+    },
+    {
+        "id": "chatcmpl-8a1HK9acJDGM1llCh1WVdwIYny0vC",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "That's understandable. It's always a bit concerning when your child starts spending a lot of time with a friend whose family you don't know well. Would you be comfortable reaching out to the friend's parents to get to know them better?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595414,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 48,
+            "prompt_tokens": 603,
+            "total_tokens": 651
+        }
+    },
+    {
+        "id": "chatcmpl-8a1HMq91U87XDpm25MAnimIbbpFkw",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I hope so too.  You're doing a good job, the fact that you're worried about it means you're a caring parent.  I hope everything turns out well for you.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595416,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 38,
+            "prompt_tokens": 919,
+            "total_tokens": 957
+        }
+    },
+    {
+        "id": "chatcmpl-8a1HNrngs3gUdap8Ka04I6aLVu33w",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I'm really sorry to hear about the loss of your childhood best friend. Losing someone close to you can be incredibly difficult and it's completely normal to feel sad and anxious in such a situation. It's important to allow yourself to grieve and to seek support from others during this challenging time. If you feel comfortable, talking about your feelings with someone you trust or seeking professional help can be very beneficial. Is there anything specific that you would like to talk about or any specific way that I can support you?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595417,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 102,
+            "prompt_tokens": 87,
+            "total_tokens": 189
+        }
+    },
+    {
+        "id": "chatcmpl-8a1HPiroxinpf1nAMZ4fpBVi1c3M2",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "There are several techniques you can try to help improve your sleep. You can start by creating a relaxing bedtime routine, limiting screen time before bed, practicing relaxation techniques such as deep breathing or meditation, and creating a comfortable sleep environment. Additionally, it may be helpful to speak with a mental health professional who can provide guidance and support for managing your sleep difficulties.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595419,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 71,
+            "prompt_tokens": 461,
+            "total_tokens": 532
+        }
+    },
+    {
+        "id": "chatcmpl-8a1HT6mrFuODsF3GEtKTtxropUQMa",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It sounds like you've been working hard to find ways to improve your sleep and manage your anxiety. Have you considered speaking with a mental health professional about your nightmares and anxiety? Counseling or therapy can be very effective in helping to address these issues and find ways to cope with them.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595423,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 56,
+            "prompt_tokens": 190,
+            "total_tokens": 246
+        }
+    },
+    {
+        "id": "chatcmpl-8a1HVUQ4yJcu0ECkHPtzOb7oqqWag",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I understand your concerns about bringing someone new into your home during the pandemic. Have you considered reaching out to local support groups or online communities for new moms? It could be helpful to connect with others who may be experiencing similar feelings and challenges. Additionally, speaking with a mental health professional can provide you with guidance and support tailored to your specific situation.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595425,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 69,
+            "prompt_tokens": 199,
+            "total_tokens": 268
+        }
+    },
+    {
+        "id": "chatcmpl-8a1HX4yBZeKfpRoauvBQH5zNqKNWc",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's completely understandable to have these doubts and fears. It's important to take the time to reflect on your feelings and make the best decision for yourself. If you feel like the current circumstances are impacting your relationship, it might be helpful to address these concerns with your boyfriend. Open and honest communication can provide clarity and understanding for both of you.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595427,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 69,
+            "prompt_tokens": 635,
+            "total_tokens": 704
+        }
+    },
+    {
+        "id": "chatcmpl-8a1HbClc5rZ7kogrh5yDe8HaQnyzk",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I understand how difficult it can be to find affordable therapy. There are some options available, such as community mental health centers, online therapy platforms, and support groups. You could also inquire about sliding scale fees with private practitioners. It's important to keep looking and not give up on finding the help you need.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595431,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 62,
+            "prompt_tokens": 385,
+            "total_tokens": 447
+        }
+    },
+    {
+        "id": "chatcmpl-8a1HeacNYMRDfjkJSC16yxFk8uRES",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I understand. A lack of motivation can be really tough. Can you think of anything specific that's been making it hard for you to get motivated?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595434,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 30,
+            "prompt_tokens": 84,
+            "total_tokens": 114
+        }
+    },
+    {
+        "id": "chatcmpl-8a1HgwmmM3JLzJbxAb90LeMCAtve2",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "There are a few things you could try. Creating a to-do list and breaking tasks into smaller, more manageable steps can help. Setting specific, achievable goals for yourself can also provide a sense of accomplishment and motivation. Additionally, you might want to consider talking to a mental health professional for additional support.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595436,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 60,
+            "prompt_tokens": 186,
+            "total_tokens": 246
+        }
+    },
+    {
+        "id": "chatcmpl-8a1Hjv0KXisIXy5rAYhb2TOZfE71r",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's great that you have big goals! Sometimes breaking them down into smaller, more manageable steps can make a big difference. Is there something specific that you're struggling with in terms of getting the little things right?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595439,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 43,
+            "prompt_tokens": 283,
+            "total_tokens": 326
+        }
+    },
+    {
+        "id": "chatcmpl-8a1HkY7lSlL4LcLEJl6OZ99XqK4xm",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "Starting a business with limited funds can be challenging, but it's definitely possible! Have you considered looking into small business loans or grants? There are also ways to start small and gradually build your business, such as starting with a side hustle or offering freelance services. It's all about being resourceful and finding creative ways to get started.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595440,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 67,
+            "prompt_tokens": 398,
+            "total_tokens": 465
+        }
+    },
+    {
+        "id": "chatcmpl-8a1HojE06d0TInUVovDQL1BumqFg5",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "You're welcome! I'm here to support you. Let me know if there's anything else I can help with.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595444,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 24,
+            "prompt_tokens": 586,
+            "total_tokens": 610
+        }
+    },
+    {
+        "id": "chatcmpl-8a1Hp6v6ezKenDrZfE7IOrrfdWQqF",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "You're welcome! I'm here to support you. If you have any other questions or need further advice, feel free to ask.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595445,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 27,
+            "prompt_tokens": 626,
+            "total_tokens": 653
+        }
+    },
+    {
+        "id": "chatcmpl-8a1HuFW2pTM24fsq5JU2kx92BZBnW",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "That's a great idea. A tutor can help provide additional support and guidance, and can also help you manage your workload more effectively. It's important to recognize that it's okay to ask for help when you need it. Is there anything else that might be contributing to your feelings of being overwhelmed?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595450,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 60,
+            "prompt_tokens": 237,
+            "total_tokens": 297
+        }
+    },
+    {
+        "id": "chatcmpl-8a1HvFwCHNo73p6Z40Ox3cpaxqd3F",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I understand. It's a tough situation. Maybe you could look into budgeting your time and money to see where you can make adjustments. It's important to take care of yourself and your mental health. It's okay to give up some fun things temporarily if it means reducing your stress and anxiety. Your well-being is the top priority.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595451,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 68,
+            "prompt_tokens": 477,
+            "total_tokens": 545
+        }
+    },
+    {
+        "id": "chatcmpl-8a1Hy6HP5NqQKfnQqpAg1h1MSaJYz",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's completely understandable to feel that way. It's important to take the time you need to process your emotions and make the best decision for yourself. Your timeline for marriage is important, but it's also important to enter into a marriage with trust and security. Don't rush into a decision, take your time to consider your options.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595454,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 67,
+            "prompt_tokens": 440,
+            "total_tokens": 507
+        }
+    },
+    {
+        "id": "chatcmpl-8a1I29Avu22KLjM0DnRVN4JY27I5q",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I understand that you're feeling a strong desire to reconcile, but it's important to consider your ex-boyfriend's feelings as well. It's crucial to give him space and time to process the breakup. Instead of immediately reaching out, take some time to reflect on your feelings and the reasons behind the breakup. Consider seeking support from friends, family, or a professional counselor to help you cope with the emotions you're experiencing. Rushing into contacting him might not be the best approach, as it could potentially push him further away. Take some time to focus on self-care and personal growth, and when you feel ready, have an open and honest conversation with him about your feelings.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595458,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 136,
+            "prompt_tokens": 153,
+            "total_tokens": 289
+        }
+    },
+    {
+        "id": "chatcmpl-8a1I6MiJ9uL1p6DCNhQvq8mWOoEio",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's understandable that you're feeling anxious about the situation. However, it's important to respect his space and decisions. It might be helpful to take some time to focus on yourself and consider what you can learn from this experience. It's also important to give him the opportunity to make his own decisions without pressure from you or anyone else. If you truly believe there's a chance to reconcile, it's important to approach it with patience and understanding.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595462,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 90,
+            "prompt_tokens": 360,
+            "total_tokens": 450
+        }
+    },
+    {
+        "id": "chatcmpl-8a1I9HR9SNE97BQHgGUo4B3MzDz2n",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's understandable that you are feeling isolated, but trying to win over his friends may not be the best approach. Instead, focus on rebuilding trust and communication with your ex. It's important to address the underlying issues that led to the breakup and to show genuine remorse for your actions. Trying to win over his friends could come across as insincere and may not ultimately address the core issues between you and your ex. Prioritize open and honest communication with your ex, and focus on understanding and addressing his feelings.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595465,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 103,
+            "prompt_tokens": 476,
+            "total_tokens": 579
+        }
+    },
+    {
+        "id": "chatcmpl-8a1IBnvi8d1rPTdBqvtfmM4zb2Jvf",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "Breakups can be especially tough during the holidays. It's a time when we often reflect on our relationships and the people we care about. I'm sorry to hear that you're going through this. How are you feeling about it?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595467,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 47,
+            "prompt_tokens": 224,
+            "total_tokens": 271
+        }
+    },
+    {
+        "id": "chatcmpl-8a1IClkeZS98V3Oigg0hbB9lrsZcW",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I am sorry to hear that.  It is hard to not know if someone you care about is okay.  Have you considered reaching out to mutual friends to see if they know anything?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595468,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 38,
+            "prompt_tokens": 428,
+            "total_tokens": 466
+        }
+    },
+    {
+        "id": "chatcmpl-8a1IFPp2OnmOfQ7XCshKd918t0ejF",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It can be especially hard to let go of someone who has been such a big part of your life for so long. But it's important to prioritize your own well-being and happiness. If you're not being treated with love and respect, it may be best to consider moving on.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595471,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 57,
+            "prompt_tokens": 280,
+            "total_tokens": 337
+        }
+    },
+    {
+        "id": "chatcmpl-8a1IGlZjrZUooK8wLsNhAuqkj5QqW",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I'm sorry you feel that way. It's important to remember that every experience, good or bad, teaches us something and helps us grow. It's never too late to make positive changes in your life and start investing in yourself. You deserve to be happy and fulfilled, and it's never too late to pursue that.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595472,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 65,
+            "prompt_tokens": 521,
+            "total_tokens": 586
+        }
+    },
+    {
+        "id": "chatcmpl-8a1II55wYUhWj60zlqUvFl5xPOJky",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's understandable that the situation is causing you a lot of emotional distress. It's difficult when friendships are tested in this way. Remember, it's important to prioritize your own well-being and emotional health in this situation.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595474,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 44,
+            "prompt_tokens": 486,
+            "total_tokens": 530
+        }
+    },
+    {
+        "id": "chatcmpl-8a1IJmKPaTuxCyNixl0qz3MjwrGW9",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "Yes, his actions have definitely impacted not only you and your wife, but also your friend group. It's a difficult situation, but with time and open communication, things could get better.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595475,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 38,
+            "prompt_tokens": 641,
+            "total_tokens": 679
+        }
+    },
+    {
+        "id": "chatcmpl-8a1IPFT3oXmZEQRDKMPzbvUBRXJoR",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I'm really sorry to hear that. It sounds like you're going through a lot. It's important to find some support during this difficult time. If you don't feel comfortable talking to friends or family, you might want to consider seeking out a professional counselor or therapist. They can provide you with a safe space to process your feelings and help you develop coping strategies for moving forward. If that's something you're interested in, I can help you find resources in your area.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595481,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 96,
+            "prompt_tokens": 274,
+            "total_tokens": 370
+        }
+    },
+    {
+        "id": "chatcmpl-8a1IQm9hdT88S1GwESw2aof1VyNtw",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I would advise against that. It's important to respect his wishes for space and privacy. It's best to focus on yourself and your own healing right now.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595482,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 32,
+            "prompt_tokens": 518,
+            "total_tokens": 550
+        }
+    },
+    {
+        "id": "chatcmpl-8a1ISP51ZceZmjRS3YmTN8ExP7U6J",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "Taking a vacation could be a good idea to give yourself some time and space to heal. It might also be a good opportunity to focus on yourself and do things that make you happy. ",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595484,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 38,
+            "prompt_tokens": 456,
+            "total_tokens": 494
+        }
+    },
+    {
+        "id": "chatcmpl-8a1IUy6icoDCfRl31IbdWcZLgT3BG",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's great to hear that you like the idea of having an aquarium! As for activities like boating and hiking, it's understandable that it might feel challenging to do these things alone. Have you considered finding a local group or club for boating or hiking? Joining a group can provide an opportunity to meet new people who share similar interests and can make these activities more enjoyable and safer.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595486,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 79,
+            "prompt_tokens": 642,
+            "total_tokens": 721
+        }
+    },
+    {
+        "id": "chatcmpl-8a1IYGC4sQ58jIrUqaZDgrjJOzj9H",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's completely normal to feel that way after a breakup. It's like mourning the loss of a future that you had planned. But, I want you to know that there is still so much ahead for you, even if it doesn't feel like it right now. You are not alone in feeling this way, and it's okay to take the time you need to heal.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595490,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 76,
+            "prompt_tokens": 225,
+            "total_tokens": 301
+        }
+    },
+    {
+        "id": "chatcmpl-8a1IaaQkvy00RSWTigJctZvOjUsIi",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "I'm sorry to hear that your best friend doesn't seem to be offering you the support you need right now. It's important to have people around you who are understanding and compassionate during difficult times. If your friend isn't able to provide the support you need, it might be helpful to seek out other friends or family members who can. You deserve to have people in your life who will be there for you when you're going through a tough time.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595492,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 91,
+            "prompt_tokens": 309,
+            "total_tokens": 400
+        }
+    },
+    {
+        "id": "chatcmpl-8a1IeRbZFV3Uom9UALWTWfOaZQlTA",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "That's wonderful to hear! Rescue dogs often have a special way of bonding with their owners, and it sounds like she's already bringing you a lot of comfort and joy. I'm glad to hear that she's helping you during this difficult time.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595496,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 50,
+            "prompt_tokens": 517,
+            "total_tokens": 567
+        }
+    },
+    {
+        "id": "chatcmpl-8a1Ig0n8GUGbbNZbdtQcVGQZk9qAP",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's definitely important to prioritize and manage your time effectively. Is there a way for you to break down the tasks and prioritize them based on due dates and importance?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595498,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 33,
+            "prompt_tokens": 253,
+            "total_tokens": 286
+        }
+    },
+    {
+        "id": "chatcmpl-8a1IiqtXivjR9GDHVlvn0WPfC1RH3",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "Absolutely, it's always worth advocating for yourself. You deserve support during difficult times.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595500,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 17,
+            "prompt_tokens": 406,
+            "total_tokens": 423
+        }
+    },
+    {
+        "id": "chatcmpl-8a1ImSXh0LVZZcIut1QuhDtKIo9rp",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It sounds like you're under a lot of pressure from your parents, and it's understandable that it's taking a toll on you. It's important to remember that everyone has their own strengths and challenges, and it's okay if you don't always come out on top. Have you tried talking to your parents about how you're feeling and your learning difficulties?",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595504,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 72,
+            "prompt_tokens": 142,
+            "total_tokens": 214
+        }
+    },
+    {
+        "id": "chatcmpl-8a1IovRZxTO53Ij6TpLuSeyZlilIa",
+        "choices": [
+            {
+                "finish_reason": "stop",
+                "index": 0,
+                "logprobs": null,
+                "message": {
+                    "content": "It's important to stand up for yourself and set boundaries with those who are treating you poorly. You can calmly express how their behavior is impacting you and that you expect to be treated with respect. If the situation doesn't improve, it may be best to distance yourself from those individuals and seek out friendships with people who value and support you.",
+                    "role": "assistant",
+                    "function_call": null,
+                    "tool_calls": null
+                }
+            }
+        ],
+        "created": 1703595506,
+        "model": "gpt-3.5-turbo-1106",
+        "object": "chat.completion",
+        "system_fingerprint": "fp_772e8125bb",
+        "usage": {
+            "completion_tokens": 68,
+            "prompt_tokens": 517,
+            "total_tokens": 585
+        }
+    }
+]

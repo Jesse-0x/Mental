@@ -150,7 +150,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+gpt3.5/.env
 .venv
 env/
 venv/

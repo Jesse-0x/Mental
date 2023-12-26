@@ -2,8 +2,8 @@ import json
 print('Loading the models...')
 from FID import fid
 import tqdm
-evaluation = json.load(open("../llama2-7b/mmistral_output.json"))
-dataset = json.load(open("../llama2-7b/ESConv2.json"))
+evaluation = json.load(open("../gpt4/gpt4_output.json"))
+dataset = json.load(open("../gpt4/ESConv2.json"))
 reference = {
     "Question":[],
     "Self-disclosure":[],
@@ -43,49 +43,39 @@ for i in tqdm.tqdm(range(len(evaluation))):
             types[strategy].append(evaluation[i]['dialog'][j]['content'])
 
 print('Start calculating FID')
-
+o_scores = {}
 #overall: -3.2882782293517914e+26
 for i in types:
     print('-------------------')
-    print(i, fid(reference[i], types[i]))
+    score = fid(reference[i], types[i])
+    print(i, score)
+    o_scores[i] = score
 
-# -------------------
-# Question 5.902958103587057e+20
-# -------------------
-# Self-disclosure -2.9206669829258405e+33
-# -------------------
-# Affirmation and Reassurance -2.5442254606820655e+35
-# -------------------
-# Providing Suggestions 4.460149039706125e+43
-# -------------------
-# Others 4.5556193445701994e+29
-# -------------------
-# Reflection of feelings 1.0141204801825835e+31
-# -------------------
-# Information -4.436777100798803e+30
-# -------------------
-# Restatement or Paraphrasing 2.337230794170798e+30
+# {"Question":1.4462000594139885e+39,
+# "Self-disclosure ":2.839537344511234e+32,
+# "Affirmation and Reassurance":1.298074214633707e+33,
+# "Providing Suggestions":3.1691265005705735e+29,
+# "Others":8.36826229095459,
+# "Reflection of feelings ":6.084722881095501e+32,
+# "Information":8.307674973655724e+35,
+# "Restatement or Paraphrasing":1.5548526893424376e+30,}
 
-# normalizing the data
-o_scores = {
-    "Question":5.902958103587057e+20,
-    "Self-disclosure":-2.9206669829258405e+33,
-    "Affirmation and Reassurance":-2.5442254606820655e+35,
-    "Providing Suggestions":4.460149039706125e+43,
-    "Others":4.5556193445701994e+29,
-    "Reflection of feelings":1.0141204801825835e+31,
-    "Information":-4.436777100798803e+30,
-    "Restatement or Paraphrasing":2.337230794170798e+30,
-}
 import torch
 from torch.nn.functional import softmax
 import numpy as np
 
-def normalize(scores):
-    scores = torch.tensor(list(scores.values()))
-    scores = softmax(scores)
-    scores = scores.tolist()
-    return scores
+import torch
+from torch.nn.functional import softmax
+import numpy as np
 
-scores = normalize(scores)
+data = torch.tensor(list(o_scores.values()), dtype=torch.float64)
 
+# Normalize data
+mean = torch.mean(data)
+std = torch.std(data)
+normalized_data = (data - mean) / std
+
+# Convert back to dictionary if needed
+normalized_o_scores = {key: val.item() for key, val in zip(o_scores.keys(), normalized_data)}
+
+print("Normalized Data:", normalized_o_scores)
