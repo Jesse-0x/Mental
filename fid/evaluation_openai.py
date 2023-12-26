@@ -41,7 +41,7 @@ for i in tqdm.tqdm(range(len(evaluation))):
             reference[strategy].append(evaluation[i]['dialog'][j]['response'])
             # find the dialog id in the dataset
             types[strategy].append(evaluation[i]['dialog'][j]['content'])
-            if strategy
+
 raise('wtf')
 print('Start calculating FID')
 
