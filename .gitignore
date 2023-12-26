@@ -151,6 +151,8 @@ celerybeat.pid
 
 # Environments
 gpt3.5/.env
+gpt4/.env
+*/.env
 .venv
 env/
 venv/

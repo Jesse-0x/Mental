@@ -56,6 +56,8 @@ def log_normalize(data):
 normalized_combined_data = log_normalize(combined_data)
 # add the smallest value to make sure all values are positive
 normalized_combined_data += torch.abs(torch.min(normalized_combined_data))
+# use max data to minus all values
+normalized_combined_data = torch.max(normalized_combined_data) - normalized_combined_data
 normalized_combined_data += 1
 
 # Split and convert back to dictionaries
@@ -71,7 +73,7 @@ print("Normalized GPT4 Data:", normalized_gpt4)
 import matplotlib.pyplot as plt
 import numpy as np
 
-plt.figure(figsize=(10, 5))
+# plt.figure(figsize=(10, 5))
 plt.bar(np.arange(len(normalized_openai)), normalized_openai.values(), width=0.25, label="OpenAI")
 plt.bar(np.arange(len(normalized_llama2))+0.25, normalized_llama2.values(), width=0.25, label="LLAMA2")
 plt.bar(np.arange(len(normalized_gpt4))+0.5, normalized_gpt4.values(), width=0.25, label="GPT4")
@@ -79,4 +81,3 @@ plt.xticks(np.arange(len(normalized_openai)), normalized_openai.keys(), rotation
 plt.ylabel("Normalized Scores")
 plt.legend()
 plt.show()
-# Plot OpenAI data and llama2 data using radar plot
