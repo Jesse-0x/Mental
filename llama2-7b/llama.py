@@ -2,7 +2,7 @@ from llama_cpp import Llama
 import json
 import tqdm
 
-llm = Llama(model_path="/Users/jesse/Doc/model/ggml-model-11.gguf",
+llm = Llama(model_path="/Users/jesse/Doc/github/llama/chat/Llama-2-7b-chat-hf/ggml-model-q4_0.gguf",
             n_ctx=2048,
             verbose=True)
 
