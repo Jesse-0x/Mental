@@ -49,4 +49,4 @@ for i in tqdm.tqdm(range(len(eval_dataset))):
 
 
     # save the output to json
-    json.dump(output, open("output.json", "w"))
+    json.dump(output, open("output.json", "w"), indent=4)
