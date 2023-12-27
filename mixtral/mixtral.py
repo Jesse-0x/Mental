@@ -2,7 +2,7 @@ from llama_cpp import Llama
 import json
 import tqdm
 
-llm = Llama(model_path="/Users/jesse/Doc/mixtral/mixtral-8x7b-v0.1.Q4_K_M.gguf",
+llm = Llama(model_path="/Users/jesse/Doc/model/ggml-model-11.gguf",
             n_ctx=2048,
             verbose=True)
 
@@ -49,4 +49,4 @@ for i in tqdm.tqdm(range(len(eval_dataset))):
 
 
     # save the output to json
-    json.dump(output, open("mmistral_output.json", "w"), indent=4)
+    json.dump(output, open("mixtral_output.json", "w"), indent=4)
