@@ -25,7 +25,7 @@ for i in tqdm.tqdm(range(len(eval_dataset))):
     output[i]["id"] = eval_dataset[i]["id"]
     message = [
         {"role": "system",
-         "content": "You are a professional mental counselor herre to support."}
+         "content": "You are a professional mental counselor here to support."}
     ]
     output[i]["dialog"] = [
         {
