@@ -1,4 +1,5 @@
 from llama_cpp import llama_chat_format
+from generate import chat_completion
 import json
 import tqdm
 
@@ -9,11 +10,12 @@ eval_ids = json.load(open("evaluation_ids2.json"))
 # evaluation the model based on evaluation json
 output = [{} for _ in range(len(eval_dataset))]
 
-import mlx
-def create_completion(message):
-    text = llama_chat_format.format_llama2(message).prompt
-    model, tokenizer = load_model(args.model)
-    return response
+
+def create_completion(_message):
+    text = llama_chat_format.format_llama2(_message).prompt
+    rt = chat_completion(text)
+    return rt
+
 
 responses = []
 for i in tqdm.tqdm(range(len(eval_dataset))):
@@ -33,16 +35,15 @@ for i in tqdm.tqdm(range(len(eval_dataset))):
     for j in tqdm.tqdm(range(len(eval_dataset[i]["dialog"]))):
         role = eval_dataset[i]["dialog"][j]["speaker"]
         if role == "seeker":
-            message.append({"role": "user", "content": eval_dataset[i]["dialog"][j]["content"]})
+            message.append({"role": "user", "content": eval_dataset[i]["dialog"][j]["content"].replace('\\n', '')})
 
         if role == "supporter":
             if eval_dataset[i]["dialog"][j]["id"] in eval_ids:
-                response = create_completion(message)
-                output[i]["dialog"][j]["response"] = response['choices'][0]['message']['content']
+                response = create_completion(message).replace('</s>', '')
+                output[i]["dialog"][j]["response"] = response
                 responses.append(response)
                 json.dump(responses, open("response.json", "w"), indent=4)
             message.append({"role": "assistant", "content": eval_dataset[i]["dialog"][j]["content"]})
 
-
     # save the output to json
-    json.dump(output, open("mmistral_output.json", "w"), indent=4)
+    json.dump(output, open("LoRA_output.json", "w"), indent=4)
