@@ -1,0 +1,52 @@
+[
+    {
+        "Question": 0.8566491603851318,
+        "Self-disclosure": 0.8546969890594482,
+        "Affirmation and Reassurance": 0.859441339969635,
+        "Providing Suggestions": 0.861178457736969,
+        "Others": 0.8560565114021301,
+        "Reflection of feelings": 0.8560750484466553,
+        "Information": 0.8566877841949463,
+        "Restatement or Paraphrasing": 0.8585933446884155
+    },
+    {
+        "Question": 0.8315087556838989,
+        "Self-disclosure": 0.8251518607139587,
+        "Affirmation and Reassurance": 0.829463541507721,
+        "Providing Suggestions": 0.829896867275238,
+        "Others": 0.8239116072654724,
+        "Reflection of feelings": 0.8262116312980652,
+        "Information": 0.8208602070808411,
+        "Restatement or Paraphrasing": 0.8289801478385925
+    },
+    {
+        "Question": 0.8331994414329529,
+        "Self-disclosure": 0.8306849598884583,
+        "Affirmation and Reassurance": 0.8407923579216003,
+        "Providing Suggestions": 0.8422235250473022,
+        "Others": 0.8369598388671875,
+        "Reflection of feelings": 0.8383023142814636,
+        "Information": 0.8348087668418884,
+        "Restatement or Paraphrasing": 0.8412255048751831
+    },
+    {
+        "Question": 0.8445861339569092,
+        "Self-disclosure": 0.843146026134491,
+        "Affirmation and Reassurance": 0.8448280692100525,
+        "Providing Suggestions": 0.8500115275382996,
+        "Others": 0.8446735739707947,
+        "Reflection of feelings": 0.8435016870498657,
+        "Information": 0.8360592126846313,
+        "Restatement or Paraphrasing": 0.8437279462814331
+    },
+    {
+        "Question": 0.8566401600837708,
+        "Self-disclosure": 0.8433268070220947,
+        "Affirmation and Reassurance": 0.8574565052986145,
+        "Providing Suggestions": 0.8534427881240845,
+        "Others": 0.858661949634552,
+        "Reflection of feelings": 0.8468626737594604,
+        "Information": 0.8431243896484375,
+        "Restatement or Paraphrasing": 0.8574255704879761
+    }
+]

@@ -134,7 +134,7 @@ plt.bar(np.arange(len(normalized_openai)), normalized_openai.values(), width=0.1
 plt.bar(np.arange(len(normalized_gpt4))+0.1, normalized_gpt4.values(), width=0.1, label="GPT4")
 plt.bar(np.arange(len(normalized_llama2))+0.2, normalized_llama2.values(), width=0.1, label="Llama2")
 plt.bar(np.arange(len(normalized_mixtral))+0.3, normalized_mixtral.values(), width=0.1, label="Mixtral-8x7B-Instruct")
-plt.bar(np.arange(len(normalized_lora))+0.4, normalized_lora.values(), width=0.1, label="Mistral_7B-Fintuned")
+plt.bar(np.arange(len(normalized_lora))+0.4, normalized_lora.values(), width=0.1, label="Mistral_7B-Mental")
 plt.xticks(np.arange(len(normalized_openai)), normalized_openai.keys(), rotation=45)
 plt.ylabel("Normalized Kullback–Leibler divergence")
 plt.legend()
