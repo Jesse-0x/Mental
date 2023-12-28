@@ -56,15 +56,18 @@ gpt3_5_path = '../gpt3.5/gpt3.5_output.json'
 gpt4_path = '../gpt4/gpt4_output.json'
 llama2_path = '../llama2-7b/mmistral_output.json'
 mixtral_path = '../mixtral/mixtral_output.json'
+LoRA_path = '../LoRAFintunedv1/LoRA_output.json'
 
 gpt3_5_score = evaluation(gpt3_5_path)
 gpt4_score = evaluation(gpt4_path)
 llama2_score = evaluation(llama2_path)
 mixtral_score = evaluation(mixtral_path)
+LoRA_score = evaluation(LoRA_path)
 print(gpt3_5_score)
 print(gpt4_score)
 print(llama2_score)
 print(mixtral_score)
+print(LoRA_score)
 
 
 # normalizing the data
@@ -75,14 +78,15 @@ data_openai = torch.tensor(list(gpt3_5_score.values()), dtype=torch.float64)
 data_llama2 = torch.tensor(list(llama2_score.values()), dtype=torch.float64)
 data_gpt4 = torch.tensor(list(gpt4_score.values()), dtype=torch.float64)
 data_mixtral = torch.tensor(list(mixtral_score.values()),dtype=torch.float64)
+data_lora = torch.tensor(list(LoRA_score.values()),dtype=torch.float64)
 
 # Concatenate tensors
-combined_data = torch.cat((data_openai, data_llama2, data_gpt4, data_mixtral), dim=0)
-# {'Question': 3.2667107224410092e+40, 'Self-disclosure': 2.535301200456459e+31, 'Affirmation and Reassurance': -5.981525981032121e+36, 'Providing Suggestions': 1.2379400392853803e+27, 'Others': 8.112963841460668e+31, 'Reflection of feelings': 1.2379400392853803e+27, 'Information': -5.070602400912918e+30, 'Restatement or Paraphrasing': 1.8276884942042593e+36}
-# {'Question': 1.4462000594139885e+39, 'Self-disclosure': -2.839537344511234e+32, 'Affirmation and Reassurance': 1.298074214633707e+33, 'Providing Suggestions': 3.1691265005705735e+29, 'Others': 8.36826229095459, 'Reflection of feelings': -6.084722881095501e+32, 'Information': 8.307674973655724e+35, 'Restatement or Paraphrasing': 1.5548526893424376e+30}
-# {'Question': 5.902958103587057e+20, 'Self-disclosure': -2.9206669829258405e+33, 'Affirmation and Reassurance': -2.5442254606820655e+35, 'Providing Suggestions': 4.460149039706125e+43, 'Others': 4.5556193445701994e+29, 'Reflection of feelings': 1.0141204801825835e+31, 'Information': -4.436777100798803e+30, 'Restatement or Paraphrasing': 2.337230794170798e+30}
-# {'Question': 2.321137573660088e+26, 'Self-disclosure': -3.448009632620784e+32, 'Affirmation and Reassurance': -8.715097876569077e+29, 'Providing Suggestions': -3.1691265005705735e+29, 'Others': 1.2169445762191002e+32, 'Reflection of feelings': -3.802951800684688e+30, 'Information': 4.460149039706125e+43, 'Restatement or Paraphrasing': -2.9076862407795035e+35}
-
+combined_data = torch.cat((data_openai, data_llama2, data_gpt4, data_mixtral, data_lora), dim=0)
+# {'Question': 0.017540745, 'Self-disclosure': 0.019603442, 'Affirmation and Reassurance': 0.015871216, 'Providing Suggestions': 0.013649434, 'Others': 0.019175101, 'Reflection of feelings': 0.018240072, 'Information': 0.0173943, 'Restatement or Paraphrasing': 0.019080702}
+# {'Question': 0.016471414, 'Self-disclosure': 0.01628292, 'Affirmation and Reassurance': 0.014870982, 'Providing Suggestions': 0.01216324, 'Others': 0.016656123, 'Reflection of feelings': 0.016297761, 'Information': 0.016333116, 'Restatement or Paraphrasing': 0.018987484}
+# {'Question': 0.016857993, 'Self-disclosure': 0.015160599, 'Affirmation and Reassurance': 0.014857735, 'Providing Suggestions': 0.0118862195, 'Others': 0.01635516, 'Reflection of feelings': 0.015221546, 'Information': 0.0154306805, 'Restatement or Paraphrasing': 0.018595291}
+# {'Question': 0.014150189, 'Self-disclosure': 0.016275164, 'Affirmation and Reassurance': 0.014971604, 'Providing Suggestions': 0.011233113, 'Others': 0.014346332, 'Reflection of feelings': 0.01527992, 'Information': 0.018450819, 'Restatement or Paraphrasing': 0.021077255}
+# {'Question': 0.020672996, 'Self-disclosure': 0.022726567, 'Affirmation and Reassurance': 0.020628564, 'Providing Suggestions': 0.01699051, 'Others': 0.020887304, 'Reflection of feelings': 0.023857832, 'Information': 0.021520784, 'Restatement or Paraphrasing': 0.026007198}
 # Normalize combined data
 def log_normalize(data):
     # Add a small constant to avoid log(0)
@@ -104,35 +108,34 @@ normalized_combined_data = normalize(combined_data)
 # add the smallest value to make sure all values are positive
 normalized_combined_data += torch.abs(torch.min(normalized_combined_data))
 # use max data to minus all values
-# normalized_combined_data = torch.max(normalized_combined_data) - normalized_combined_data
+normalized_combined_data = torch.max(normalized_combined_data) - normalized_combined_data
 normalized_combined_data += 1
 
 # Split and convert back to dictionaries
 normalized_openai = dict(zip(gpt3_5_score.keys(), normalized_combined_data[:len(gpt3_5_score)].tolist()))
-normalized_llama2 = dict(zip(llama2_score.keys(), normalized_combined_data[len(gpt3_5_score):len(gpt3_5_score) + len(llama2_score) + len(mixtral_score)].tolist()))
+normalized_llama2 = dict(zip(llama2_score.keys(), normalized_combined_data[len(gpt3_5_score):len(gpt3_5_score)+len(llama2_score)].tolist()))
 normalized_gpt4   = dict(zip(gpt4_score.keys(),   normalized_combined_data[len(gpt3_5_score)+len(llama2_score):len(gpt3_5_score)+len(llama2_score)+len(gpt4_score)].tolist()))
-normalized_mixtral=dict(zip(mixtral_score.keys(), normalized_combined_data[len(gpt3_5_score)+len(llama2_score)+len(gpt4_score):].tolist()))
+normalized_mixtral=dict(zip(mixtral_score.keys(), normalized_combined_data[len(gpt3_5_score)+len(llama2_score)+len(gpt4_score):len(gpt3_5_score)+len(llama2_score)+len(gpt4_score)+len(mixtral_score)].tolist()))
+normalized_lora=dict(zip(LoRA_score.keys(), normalized_combined_data[len(gpt3_5_score)+len(llama2_score)+len(gpt4_score)+len(mixtral_score):].tolist()))
 
 
 print("Normalized OpenAI Data:", normalized_openai)
 print("Normalized LLAMA2 Data:", normalized_llama2)
 print("Normalized GPT4 Data:", normalized_gpt4)
 print("Normalized Mixtral Data:", normalized_mixtral)
+print("Normalized LoRA Data:", normalized_lora)
 
 
-
-
-
-# do a plot
 import matplotlib.pyplot as plt
 import numpy as np
 
-plt.figure(figsize=(10, 10))
-plt.bar(np.arange(len(normalized_openai)), normalized_openai.values(), width=0.2, label="OpenAI")
-plt.bar(np.arange(len(normalized_gpt4))+0.2, normalized_gpt4.values(), width=0.2, label="GPT4")
-plt.bar(np.arange(len(normalized_llama2))+0.4, normalized_llama2.values(), width=0.2, label="LLAMA2")
-plt.bar(np.arange(len(normalized_mixtral))+0.6, normalized_mixtral.values(), width=0.2, label="Mixtral")
+plt.figure(figsize=(15, 15))
+plt.bar(np.arange(len(normalized_openai)), normalized_openai.values(), width=0.1, label="GPT3.5")
+plt.bar(np.arange(len(normalized_gpt4))+0.1, normalized_gpt4.values(), width=0.1, label="GPT4")
+plt.bar(np.arange(len(normalized_llama2))+0.2, normalized_llama2.values(), width=0.1, label="Llama2")
+plt.bar(np.arange(len(normalized_mixtral))+0.3, normalized_mixtral.values(), width=0.1, label="Mixtral-8x7B-Instruct")
+plt.bar(np.arange(len(normalized_lora))+0.4, normalized_lora.values(), width=0.1, label="Mistral_7B-Fintuned")
 plt.xticks(np.arange(len(normalized_openai)), normalized_openai.keys(), rotation=45)
-plt.ylabel("Normalized Scores")
+plt.ylabel("Normalized Kullback–Leibler divergence")
 plt.legend()
 plt.show()
