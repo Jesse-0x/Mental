@@ -1,0 +1,37 @@
+At least for me, I feel anything can be used to determine the next stradigy in this dataset
+in this dataset they had proposed a new stuff called ES framework
+where uses big three step that is Exploration, Comforting and Action
+Which corresponding to these:
+1. Question / Restatement or Paraphrasing / Reflection of Feelings
+2. Reflection of Feelings, Self-disclosure, Affirmation and Reassurance
+3. Self-disclosure, Affirmation and Reassurance, Providing Suggestions, Information
+
+Which - the model should be able to change pretty much.
+
+What it should be able to do?
+Most effective Strategy -> Know the next step -> understandable the content
+how should CoT come into play?Ls
+AutoCOT
+LangChain
+
+Agent - LLM agent
+where utilize multiple llm and non-llm to perform the final result
+Which I think --- it's quite suitable but not sude the huge contribution
+other than defining some new evaluation / provide more baseline model and
+
+Thinking module, memory module, and tool call module
+ Where I'm not sure how to do this at all...
+
+Autoregressive Pattern
+
+3H:
+Helpfulness
+Honesty
+Harmless
+
+
+Use this paper to evaluate the model's mental support safeness - such as will or will not
+Sun H, Zhang Z, Deng J, et al. Safety assessment of chinese large language models[J]. arXiv preprint arXiv:2304.10436, 2023.
+Diversity of use cases and avoid overwriting.
+
+(4) Reinforcement Learning: Use reinforcement learning to maximize harmful expectations Epr(x) [r(x,y)]. Use Advantage Actor-Critic (A2C) [195] to train the red team language model pr(x). Initialize hot start pr(x) by using a training model obtained through supervised learning. In order to prevent the reinforcement learning from collapsing to a single high reward generation, the loss items are also added, and the KL divergence between the current pr(x) and the initialization distribution is used. The final loss is a linear combination of KL divergence penalty and A2C loss, using α ∈ [0, 1] for weighting between the two.
